@@ -1,5 +1,5 @@
 using System.ComponentModel.DataAnnotations;
-namespace TEST1.Models;
+namespace test1.Models;
 public class student
 {
     [Key]

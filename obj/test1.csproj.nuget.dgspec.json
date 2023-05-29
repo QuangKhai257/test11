@@ -1,25 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Bàn Làm Việc\\f\\test1\\test1.csproj": {}
+    "C:\\Users\\Admin\\OneDrive\\Máy tính\\test11\\test1.csproj": {}
   },
   "projects": {
-    "D:\\Bàn Làm Việc\\f\\test1\\test1.csproj": {
+    "C:\\Users\\Admin\\OneDrive\\Máy tính\\test11\\test1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Bàn Làm Việc\\f\\test1\\test1.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\OneDrive\\Máy tính\\test11\\test1.csproj",
         "projectName": "test1",
-        "projectPath": "D:\\Bàn Làm Việc\\f\\test1\\test1.csproj",
-        "packagesPath": "C:\\Users\\LAPTOPSN\\.nuget\\packages\\",
-        "outputPath": "D:\\Bàn Làm Việc\\f\\test1\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\OneDrive\\Máy tính\\test11\\test1.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\OneDrive\\Máy tính\\test11\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\LAPTOPSN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,6 +39,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[6.2.4, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -82,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using TEST1.Models;
+using Test11.Models;
 
 namespace MvcMovie.Data
 {
@@ -15,5 +16,7 @@ namespace MvcMovie.Data
         }
 
         public DbSet<TEST1.Models.student> student { get; set; } = default!;
+
+        public DbSet<Test11.Models.Employee> Employee { get; set; } = default!;
     }
 }
